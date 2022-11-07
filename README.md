@@ -29,9 +29,12 @@ We aim to give the Health Sciences Information and Admissions Office at the Aust
 - Andrianina Raharijao
 - John Cabrera 
 - Tahmuras Pirimov
+- Jonathan Kurtz
 
 ## Deck Officers
 - Ellijah (mentor)
+- La Tasha Robert
+- Geoffrey Reid
 - Hector Santiago (co-mentor)
 
 
