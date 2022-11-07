@@ -18,26 +18,11 @@
 
 </head>
 <body> 
-    <div class="grid-container"> 
-
-        <header class="header">
-            <div class="menu-icon" onclick="openSidebar()">
-                <span class="material-icons-outlined"> menu </span>
-            </div>
-            <div class="header-left">
-                <span class="material-icons-outlined"> search </span>
-            </div>
-            <div class="header-right">
-                <span class="material-icons-outlined"> notifications </span>
-                <span class="material-icons-outlined"> mail </span>
-                <span class="material-icons-outlined"> account_circle </span>
-            </div>
-        </header>
-           
+    <div class="grid-container">    
         <aside id="sidebar">   
             <div class="sidebar-title">
                 <div class="sidebar-brand">
-                    <span class="material-icons-outlined"> inventory </span> Sonography report
+                    <span class="material-icons-outlined"> inventory </span> Sonography Report
                 </div>
                 <span class="material-icons-outlined" onclick="closeSidebar()"> close </span>
             </div>
@@ -47,12 +32,8 @@
                     <a href="index.html" target="_self"> Dashboard </a>
                 </li>
                 <li class="sidebar-list-item">
-                    <span class="material-icons-outlined"> contact_support </span> 
-                    <a href="contact.html" target="_self"> Contacts</a>
-                </li>
-                <li class="sidebar-list-item">
                     <span class="material-icons-outlined"> ballot </span> 
-                    <a href="reports.html" target="_self">Reports</a>
+                    <a href="reports.html" target="_self">Report</a>
                 </li>
                 <li class="sidebar-list-item">
                     <span class="material-icons-outlined"> description </span>
@@ -62,11 +43,40 @@
         </aside>
         
         <!-- will show data taken from dataset -->
-        <main   class="main-container"> 
-
-
+        <main class="main-container"> 
+            <h1>Physics Score Category</h1>
+            <p>The physics category evaluates the student’s scores on spatial resolution, logic, graph interpretation and problem solving</p>
+            <div class="image-container">
+                <div class="images">
+                    <img src="Images/gsvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/lcvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/sscvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/psvsFG.png">
+                </div>
+            </div>
+            <h1>Clinclal Score Category</h1>
+            <p>The clinical category evaluates the student’s scores on visualization, judgment, dexterity/hand-eye coordination, and persistence.</p>    
+            <div class="image-container">
+                <div class="images">
+                    <img src="Images/virscvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/jsvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/dexvsFG.png">
+                </div>
+                <div class="images">
+                    <img src="Images/perScvsFG.png">
+                </div>
+            </div>
         </main>
-    
     </div>
     <!-- script -->
     <script src="js/main.js"></script>
