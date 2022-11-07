@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #455063;
+    color: burlywood;
     font-family: 'Crimson Text', serif;
 }
 .material-icons-outlined{
@@ -19,7 +19,6 @@ body{
         "sidebar main main main";
     height: 100vh;
 }
-
 .header{
     grid-area: header;
     height: 70px;
@@ -115,3 +114,4 @@ img{
 .main-link{
     font-size: larger;
 }
+
